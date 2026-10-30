@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this code or the MANET-FLOOD dataset, please cite the article below."
+title: "MERIT-Net: code, simulation results, and the MANET-FLOOD dataset"
+type: software
+license: MIT
+authors:
+  - family-names: Shareef
+    given-names: Sk Khaja
+    email: khajashareef@klh.edu.in
+    affiliation: "Koneru Lakshmaiah Education Foundation, Hyderabad, India"
+  - family-names: Siri
+    given-names: D.
+    affiliation: "Gokaraju Rangaraju Institute of Engineering and Technology, Telangana, India"
+  - family-names: Suresh
+    given-names: Kurumalla
+    affiliation: "Madanapalle Institute of Technology & Science, Andhra Pradesh, India"
+  - family-names: Adudhodla
+    given-names: Mallareddy
+    affiliation: "CVR College of Engineering, Hyderabad, India"
+  - family-names: Bande
+    given-names: Vasavi
+    affiliation: "MVSR Engineering College, Hyderabad, India"
+  - family-names: Jabeen
+    given-names: Khadija
+    affiliation: "Rajeev Gandhi Memorial College of Engineering and Technology, Nandyal, India"
+repository-code: "https://github.com/YOUR-GITHUB-USERNAME/MERIT-Net"
+preferred-citation:
+  type: article
+  title: "MERIT-Net: Lightweight Mobility-Explained Flooding Detection for Mobile Ad Hoc Networks"
+  authors:
+    - family-names: Shareef
+      given-names: Sk Khaja
+    - family-names: Siri
+      given-names: D.
+    - family-names: Suresh
+      given-names: Kurumalla
+    - family-names: Adudhodla
+      given-names: Mallareddy
+    - family-names: Bande
+      given-names: Vasavi
+    - family-names: Jabeen
+      given-names: Khadija
+  journal: "IEEE Open Journal of the Communications Society"
+  year: 2026
+  status: submitted

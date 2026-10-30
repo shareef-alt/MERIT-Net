@@ -1,0 +1,133 @@
+         detector  precision  recall     f1  accuracy    fpr  detect_rate  delay  false_conv  isolated
+AODV (no defense)     0.0000  0.0000 0.0000    0.9812 0.0000          0.0    NaN      0.0000    0.0000
+ Static threshold     0.9880  0.6517 0.7854    0.9932 0.0002          1.0 1.6333      9.5048    1.4857
+      Plain CUSUM     0.0679  0.8208 0.1254    0.7792 0.2216          1.0 5.1889   1042.1333   42.4952
+  FAPRP-style kNN     0.9193  0.6866 0.7861    0.9928 0.0012          1.0 2.2667     45.5429   12.2381
+    CNN-BiLSTM-RF     0.9966  0.8822 0.9359    0.9976 0.0001          1.0 1.1333      5.1429    3.7905
+Ref. CNN-LSTM/GRU     0.9983  0.9154 0.9551    0.9983 0.0000          1.0 1.4556      2.7333    2.1619
+        MERIT-Net     0.9988  0.9131 0.9540    0.9983 0.0000          1.0 2.3222      0.2000    0.0857
+   MERIT linear λ     0.9989  0.8769 0.9339    0.9976 0.0000          1.0 2.3222      0.3048    0.0952
+   MERIT no V-Net     0.9999  0.8597 0.9245    0.9973 0.0000          1.0 4.3778      0.0095    0.0095
+  MERIT no fusion     0.9987  0.9140 0.9544    0.9983 0.0000          1.0 2.2778      0.8381    0.5619
+
+Benign false convictions per run by speed
+speed                  0       5        10       15       20
+detector                                                    
+AODV (no defense)    0.00    0.00     0.00     0.00     0.00
+Static threshold     3.67   14.67    15.00     5.67    19.00
+Plain CUSUM        391.33  975.00  1246.00  1357.00  1400.33
+FAPRP-style kNN      0.00   23.67    40.00    94.33    59.67
+CNN-BiLSTM-RF        0.67    2.67     5.33    10.00     8.00
+Ref. CNN-LSTM/GRU    0.67    1.67     2.33     5.67     3.67
+MERIT-Net            0.00    0.00     0.00     1.33     0.00
+MERIT linear λ       0.00    0.67     0.00     1.33     0.00
+MERIT no V-Net       0.00    0.00     0.00     0.00     0.00
+MERIT no fusion      0.00    0.67     0.33     1.67     5.33
+
+Benign pair FPR by speed
+speed                   0        5        10       15       20
+detector                                                      
+AODV (no defense)  0.00000  0.00000  0.00000  0.00000  0.00000
+Static threshold   0.00007  0.00029  0.00020  0.00006  0.00032
+Plain CUSUM        0.30683  0.27405  0.23400  0.18625  0.16355
+FAPRP-style kNN    0.00000  0.00047  0.00063  0.00192  0.00110
+CNN-BiLSTM-RF      0.00001  0.00002  0.00006  0.00012  0.00007
+Ref. CNN-LSTM/GRU  0.00001  0.00001  0.00003  0.00006  0.00003
+MERIT-Net          0.00000  0.00001  0.00001  0.00002  0.00002
+MERIT linear λ     0.00000  0.00001  0.00001  0.00001  0.00000
+MERIT no V-Net     0.00000  0.00000  0.00000  0.00000  0.00000
+MERIT no fusion    0.00000  0.00001  0.00001  0.00002  0.00009
+
+Detection rate per attack
+scenario           data  hello  rreq  rreq-low  rreq-stealth  syn
+detector                                                         
+AODV (no defense)   0.0    0.0   0.0       0.0           0.0  0.0
+Static threshold    1.0    1.0   1.0       1.0           1.0  1.0
+Plain CUSUM         1.0    1.0   1.0       1.0           1.0  1.0
+FAPRP-style kNN     1.0    1.0   1.0       1.0           1.0  1.0
+CNN-BiLSTM-RF       1.0    1.0   1.0       1.0           1.0  1.0
+Ref. CNN-LSTM/GRU   1.0    1.0   1.0       1.0           1.0  1.0
+MERIT-Net           1.0    1.0   1.0       1.0           1.0  1.0
+MERIT linear λ      1.0    1.0   1.0       1.0           1.0  1.0
+MERIT no V-Net      1.0    1.0   1.0       1.0           1.0  1.0
+MERIT no fusion     1.0    1.0   1.0       1.0           1.0  1.0
+
+Mean delay (s) per attack
+scenario           data  hello  rreq  rreq-low  rreq-stealth  syn
+detector                                                         
+AODV (no defense)   NaN    NaN   NaN       NaN           NaN  NaN
+Static threshold    1.1    1.0   1.0       2.9           2.9  1.0
+Plain CUSUM         1.1    3.0   1.6       7.9           7.9  9.5
+FAPRP-style kNN     1.0    1.0   1.0       4.7           4.7  1.1
+CNN-BiLSTM-RF       1.0    1.0   1.0       1.1           1.7  1.0
+Ref. CNN-LSTM/GRU   1.0    1.0   1.0       1.7           3.0  1.0
+MERIT-Net           1.0    2.0   1.1       4.4           4.4  1.0
+MERIT linear λ      1.0    2.0   1.1       4.4           4.4  1.0
+MERIT no V-Net      1.1    3.0   2.3       9.2           9.2  1.5
+MERIT no fusion     1.0    2.0   1.1       4.3           4.3  1.0
+
+PDR by scenario
+scenario           benign   data  hello   rreq  rreq-low  rreq-stealth    syn
+detector                                                                     
+AODV (no defense)   0.853  0.739  0.625  0.475     0.793         0.793  0.809
+Static threshold    0.835  0.802  0.848  0.757     0.794         0.794  0.817
+Plain CUSUM         0.596  0.552  0.586  0.479     0.549         0.549  0.594
+FAPRP-style kNN     0.837  0.829  0.843  0.774     0.810         0.810  0.832
+CNN-BiLSTM-RF       0.844  0.832  0.824  0.756     0.819         0.813  0.825
+Ref. CNN-LSTM/GRU   0.846  0.831  0.828  0.755     0.819         0.809  0.819
+MERIT-Net           0.845  0.831  0.838  0.736     0.802         0.802  0.828
+MERIT linear λ      0.853  0.843  0.838  0.736     0.800         0.800  0.830
+MERIT no V-Net      0.844  0.837  0.832  0.723     0.813         0.813  0.813
+MERIT no fusion     0.840  0.835  0.845  0.738     0.799         0.799  0.831
+
+Network (attack runs)
+                   is_att    pdr  overhead  throughput
+detector                                              
+AODV (no defense)    True  0.706     7.100     343.288
+Static threshold     True  0.802     4.034     392.812
+Plain CUSUM          True  0.552     8.927     202.439
+FAPRP-style kNN      True  0.816     3.898     392.407
+CNN-BiLSTM-RF        True  0.812     3.876     397.355
+Ref. CNN-LSTM/GRU    True  0.810     3.892     396.999
+MERIT-Net            True  0.806     4.091     395.315
+MERIT linear λ       True  0.808     4.093     395.099
+MERIT no V-Net       True  0.805     4.254     392.409
+MERIT no fusion      True  0.808     4.125     393.152
+
+PDR under attack by speed
+speed                 0      5      10     15     20
+detector                                            
+AODV (no defense)  0.870  0.762  0.682  0.625  0.589
+Static threshold   0.982  0.882  0.781  0.699  0.667
+Plain CUSUM        0.597  0.569  0.558  0.535  0.500
+FAPRP-style kNN    0.992  0.900  0.783  0.750  0.656
+CNN-BiLSTM-RF      0.992  0.892  0.788  0.719  0.667
+Ref. CNN-LSTM/GRU  0.994  0.894  0.789  0.727  0.646
+MERIT-Net          0.990  0.876  0.786  0.728  0.652
+MERIT linear λ     0.991  0.877  0.784  0.728  0.659
+MERIT no V-Net     0.993  0.896  0.784  0.707  0.644
+MERIT no fusion    0.990  0.881  0.788  0.722  0.658
+
+Efficiency {
+ "MERIT-Net": {
+  "params": 2727,
+  "always_on_macs": 564,
+  "vnet_macs": 29496,
+  "kb_int8": 2.6630859375,
+  "ms_per_window_all_pairs": 5.090013978047215
+ },
+ "Ref. CNN-LSTM/GRU": {
+  "params": 27170,
+  "always_on_macs": 248896,
+  "kb_int8": 26.533203125,
+  "ms_per_window_all_pairs": 9.627560583383543
+ },
+ "CNN-BiLSTM-RF": {
+  "params": 19105,
+  "always_on_macs": 296000,
+  "kb_int8": 18.6572265625,
+  "note": "+ 100-tree random forest",
+  "ms_per_window_all_pairs": 15.377188539427888
+ }
+}
+ms/window {'AODV (no defense)': 0.04, 'CNN-BiLSTM-RF': 15.38, 'FAPRP-style kNN': 17.97, 'MERIT linear λ': 2.61, 'MERIT no V-Net': 4.53, 'MERIT no fusion': 4.73, 'MERIT-Net': 5.09, 'Plain CUSUM': 0.22, 'Ref. CNN-LSTM/GRU': 9.63, 'Static threshold': 0.11}

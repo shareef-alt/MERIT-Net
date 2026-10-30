@@ -1,0 +1,1964 @@
+{
+ "overall": [
+  {
+   "detector": "AODV (no defense)",
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "accuracy": 0.981199276699908,
+   "fpr": 0.0,
+   "detect_rate": 0.0,
+   "delay": NaN,
+   "false_conv": 0.0,
+   "isolated": 0.0
+  },
+  {
+   "detector": "Static threshold",
+   "precision": 0.9879713334126323,
+   "recall": 0.651744685024889,
+   "f1": 0.7853860769405793,
+   "accuracy": 0.9931752054044322,
+   "fpr": 0.00015501013745222158,
+   "detect_rate": 1.0,
+   "delay": 1.6333333333333333,
+   "false_conv": 9.504761904761905,
+   "isolated": 1.4857142857142858
+  },
+  {
+   "detector": "Plain CUSUM",
+   "precision": 0.06790069020776462,
+   "recall": 0.8207865249834794,
+   "f1": 0.12542539288723192,
+   "accuracy": 0.7791950487096291,
+   "fpr": 0.22162304118941073,
+   "detect_rate": 1.0,
+   "delay": 5.188888888888889,
+   "false_conv": 1042.1333333333334,
+   "isolated": 42.49523809523809
+  },
+  {
+   "detector": "FAPRP-style kNN",
+   "precision": 0.9192846094856831,
+   "recall": 0.6865865792986288,
+   "f1": 0.7860760935706963,
+   "accuracy": 0.9927840909783189,
+   "fpr": 0.0011869726596807943,
+   "detect_rate": 1.0,
+   "delay": 2.2666666666666666,
+   "false_conv": 45.542857142857144,
+   "isolated": 12.238095238095237
+  },
+  {
+   "detector": "CNN-BiLSTM-RF",
+   "precision": 0.996552284924378,
+   "recall": 0.8822436903407864,
+   "f1": 0.935920639648102,
+   "accuracy": 0.9976447106946302,
+   "fpr": 6.068998790780618e-05,
+   "detect_rate": 1.0,
+   "delay": 1.1333333333333333,
+   "false_conv": 5.142857142857143,
+   "isolated": 3.7904761904761903
+  },
+  {
+   "detector": "Ref. CNN-LSTM/GRU",
+   "precision": 0.99827880267255,
+   "recall": 0.9154115829598771,
+   "f1": 0.9550510216810957,
+   "accuracy": 0.9983092920150929,
+   "fpr": 3.1588596248729755e-05,
+   "detect_rate": 1.0,
+   "delay": 1.4555555555555555,
+   "false_conv": 2.7333333333333334,
+   "isolated": 2.1619047619047618
+  },
+  {
+   "detector": "MERIT-Net",
+   "precision": 0.9987556051406381,
+   "recall": 0.9131048822110198,
+   "f1": 0.9540116815247464,
+   "accuracy": 0.9983189295536716,
+   "fpr": 2.214800096152873e-05,
+   "detect_rate": 1.0,
+   "delay": 2.3222222222222224,
+   "false_conv": 0.2,
+   "isolated": 0.08571428571428572
+  },
+  {
+   "detector": "MERIT linear \u03bb",
+   "precision": 0.9989162843714731,
+   "recall": 0.8768674924462364,
+   "f1": 0.933921306139591,
+   "accuracy": 0.9976377209440332,
+   "fpr": 1.8462223086981272e-05,
+   "detect_rate": 1.0,
+   "delay": 2.3222222222222224,
+   "false_conv": 0.3047619047619048,
+   "isolated": 0.09523809523809523
+  },
+  {
+   "detector": "MERIT no V-Net",
+   "precision": 0.999856708068482,
+   "recall": 0.8596857813085218,
+   "f1": 0.9244882547001074,
+   "accuracy": 0.9973172262094111,
+   "fpr": 2.399393663623628e-06,
+   "detect_rate": 1.0,
+   "delay": 4.377777777777778,
+   "false_conv": 0.009523809523809525,
+   "isolated": 0.009523809523809525
+  },
+  {
+   "detector": "MERIT no fusion",
+   "precision": 0.9986709772009303,
+   "recall": 0.9139529608232098,
+   "f1": 0.9544357135296697,
+   "accuracy": 0.9983097345918706,
+   "fpr": 2.4024353830683217e-05,
+   "detect_rate": 1.0,
+   "delay": 2.2777777777777777,
+   "false_conv": 0.8380952380952381,
+   "isolated": 0.5619047619047619
+  }
+ ],
+ "benign_by_speed": [
+  {
+   "detector": "AODV (no defense)",
+   "speed": 0,
+   "false_conv": 0.0,
+   "isolated": 0.0,
+   "hf": 0,
+   "hp": 218960,
+   "fpr": 0.0
+  },
+  {
+   "detector": "AODV (no defense)",
+   "speed": 5,
+   "false_conv": 0.0,
+   "isolated": 0.0,
+   "hf": 0,
+   "hp": 336570,
+   "fpr": 0.0
+  },
+  {
+   "detector": "AODV (no defense)",
+   "speed": 10,
+   "false_conv": 0.0,
+   "isolated": 0.0,
+   "hf": 0,
+   "hp": 324526,
+   "fpr": 0.0
+  },
+  {
+   "detector": "AODV (no defense)",
+   "speed": 15,
+   "false_conv": 0.0,
+   "isolated": 0.0,
+   "hf": 0,
+   "hp": 334512,
+   "fpr": 0.0
+  },
+  {
+   "detector": "AODV (no defense)",
+   "speed": 20,
+   "false_conv": 0.0,
+   "isolated": 0.0,
+   "hf": 0,
+   "hp": 309506,
+   "fpr": 0.0
+  },
+  {
+   "detector": "CNN-BiLSTM-RF",
+   "speed": 0,
+   "false_conv": 0.6666666666666666,
+   "isolated": 0.6666666666666666,
+   "hf": 2,
+   "hp": 218960,
+   "fpr": 9.134088417975885e-06
+  },
+  {
+   "detector": "CNN-BiLSTM-RF",
+   "speed": 5,
+   "false_conv": 2.6666666666666665,
+   "isolated": 2.6666666666666665,
+   "hf": 7,
+   "hp": 337392,
+   "fpr": 2.074737990230948e-05
+  },
+  {
+   "detector": "CNN-BiLSTM-RF",
+   "speed": 10,
+   "false_conv": 5.333333333333333,
+   "isolated": 4.0,
+   "hf": 18,
+   "hp": 320214,
+   "fpr": 5.621240795218198e-05
+  },
+  {
+   "detector": "CNN-BiLSTM-RF",
+   "speed": 15,
+   "false_conv": 10.0,
+   "isolated": 6.333333333333333,
+   "hf": 40,
+   "hp": 327306,
+   "fpr": 0.00012220979755947034
+  },
+  {
+   "detector": "CNN-BiLSTM-RF",
+   "speed": 20,
+   "false_conv": 8.0,
+   "isolated": 6.333333333333333,
+   "hf": 24,
+   "hp": 327778,
+   "fpr": 7.322028934217672e-05
+  },
+  {
+   "detector": "FAPRP-style kNN",
+   "speed": 0,
+   "false_conv": 0.0,
+   "isolated": 0.0,
+   "hf": 0,
+   "hp": 218960,
+   "fpr": 0.0
+  },
+  {
+   "detector": "FAPRP-style kNN",
+   "speed": 5,
+   "false_conv": 23.666666666666668,
+   "isolated": 10.666666666666666,
+   "hf": 153,
+   "hp": 328916,
+   "fpr": 0.00046516435807318586
+  },
+  {
+   "detector": "FAPRP-style kNN",
+   "speed": 10,
+   "false_conv": 40.0,
+   "isolated": 13.0,
+   "hf": 206,
+   "hp": 328666,
+   "fpr": 0.0006267761192213371
+  },
+  {
+   "detector": "FAPRP-style kNN",
+   "speed": 15,
+   "false_conv": 94.33333333333333,
+   "isolated": 19.333333333333332,
+   "hf": 630,
+   "hp": 328790,
+   "fpr": 0.0019161166702150309
+  },
+  {
+   "detector": "FAPRP-style kNN",
+   "speed": 20,
+   "false_conv": 59.666666666666664,
+   "isolated": 17.666666666666668,
+   "hf": 345,
+   "hp": 312984,
+   "fpr": 0.0011022927689594356
+  },
+  {
+   "detector": "MERIT linear \u03bb",
+   "speed": 0,
+   "false_conv": 0.0,
+   "isolated": 0.0,
+   "hf": 0,
+   "hp": 218960,
+   "fpr": 0.0
+  },
+  {
+   "detector": "MERIT linear \u03bb",
+   "speed": 5,
+   "false_conv": 0.6666666666666666,
+   "isolated": 0.3333333333333333,
+   "hf": 2,
+   "hp": 336570,
+   "fpr": 5.942300264432362e-06
+  },
+  {
+   "detector": "MERIT linear \u03bb",
+   "speed": 10,
+   "false_conv": 0.0,
+   "isolated": 0.0,
+   "hf": 4,
+   "hp": 324526,
+   "fpr": 1.2325668821604432e-05
+  },
+  {
+   "detector": "MERIT linear \u03bb",
+   "speed": 15,
+   "false_conv": 1.3333333333333333,
+   "isolated": 0.3333333333333333,
+   "hf": 5,
+   "hp": 335416,
+   "fpr": 1.490686192668209e-05
+  },
+  {
+   "detector": "MERIT linear \u03bb",
+   "speed": 20,
+   "false_conv": 0.0,
+   "isolated": 0.0,
+   "hf": 0,
+   "hp": 309506,
+   "fpr": 0.0
+  },
+  {
+   "detector": "MERIT no V-Net",
+   "speed": 0,
+   "false_conv": 0.0,
+   "isolated": 0.0,
+   "hf": 0,
+   "hp": 218960,
+   "fpr": 0.0
+  },
+  {
+   "detector": "MERIT no V-Net",
+   "speed": 5,
+   "false_conv": 0.0,
+   "isolated": 0.0,
+   "hf": 0,
+   "hp": 336570,
+   "fpr": 0.0
+  },
+  {
+   "detector": "MERIT no V-Net",
+   "speed": 10,
+   "false_conv": 0.0,
+   "isolated": 0.0,
+   "hf": 0,
+   "hp": 324526,
+   "fpr": 0.0
+  },
+  {
+   "detector": "MERIT no V-Net",
+   "speed": 15,
+   "false_conv": 0.0,
+   "isolated": 0.0,
+   "hf": 0,
+   "hp": 334512,
+   "fpr": 0.0
+  },
+  {
+   "detector": "MERIT no V-Net",
+   "speed": 20,
+   "false_conv": 0.0,
+   "isolated": 0.0,
+   "hf": 0,
+   "hp": 313206,
+   "fpr": 0.0
+  },
+  {
+   "detector": "MERIT no fusion",
+   "speed": 0,
+   "false_conv": 0.0,
+   "isolated": 0.0,
+   "hf": 0,
+   "hp": 218960,
+   "fpr": 0.0
+  },
+  {
+   "detector": "MERIT no fusion",
+   "speed": 5,
+   "false_conv": 0.6666666666666666,
+   "isolated": 0.3333333333333333,
+   "hf": 2,
+   "hp": 336570,
+   "fpr": 5.942300264432362e-06
+  },
+  {
+   "detector": "MERIT no fusion",
+   "speed": 10,
+   "false_conv": 0.3333333333333333,
+   "isolated": 0.3333333333333333,
+   "hf": 4,
+   "hp": 325058,
+   "fpr": 1.2305496249900019e-05
+  },
+  {
+   "detector": "MERIT no fusion",
+   "speed": 15,
+   "false_conv": 1.6666666666666667,
+   "isolated": 0.3333333333333333,
+   "hf": 6,
+   "hp": 335416,
+   "fpr": 1.7888234312018507e-05
+  },
+  {
+   "detector": "MERIT no fusion",
+   "speed": 20,
+   "false_conv": 5.333333333333333,
+   "isolated": 1.6666666666666667,
+   "hf": 29,
+   "hp": 320686,
+   "fpr": 9.043113824738217e-05
+  },
+  {
+   "detector": "MERIT-Net",
+   "speed": 0,
+   "false_conv": 0.0,
+   "isolated": 0.0,
+   "hf": 0,
+   "hp": 218960,
+   "fpr": 0.0
+  },
+  {
+   "detector": "MERIT-Net",
+   "speed": 5,
+   "false_conv": 0.0,
+   "isolated": 0.0,
+   "hf": 2,
+   "hp": 336570,
+   "fpr": 5.942300264432362e-06
+  },
+  {
+   "detector": "MERIT-Net",
+   "speed": 10,
+   "false_conv": 0.0,
+   "isolated": 0.0,
+   "hf": 4,
+   "hp": 324526,
+   "fpr": 1.2325668821604432e-05
+  },
+  {
+   "detector": "MERIT-Net",
+   "speed": 15,
+   "false_conv": 1.3333333333333333,
+   "isolated": 0.3333333333333333,
+   "hf": 6,
+   "hp": 335416,
+   "fpr": 1.7888234312018507e-05
+  },
+  {
+   "detector": "MERIT-Net",
+   "speed": 20,
+   "false_conv": 0.0,
+   "isolated": 0.0,
+   "hf": 6,
+   "hp": 313206,
+   "fpr": 1.915672113561043e-05
+  },
+  {
+   "detector": "Plain CUSUM",
+   "speed": 0,
+   "false_conv": 391.3333333333333,
+   "isolated": 39.666666666666664,
+   "hf": 67183,
+   "hp": 218960,
+   "fpr": 0.306827731092437
+  },
+  {
+   "detector": "Plain CUSUM",
+   "speed": 5,
+   "false_conv": 975.0,
+   "isolated": 44.0,
+   "hf": 86274,
+   "hp": 314816,
+   "fpr": 0.27404579182760724
+  },
+  {
+   "detector": "Plain CUSUM",
+   "speed": 10,
+   "false_conv": 1246.0,
+   "isolated": 45.0,
+   "hf": 74069,
+   "hp": 316532,
+   "fpr": 0.23400161752998117
+  },
+  {
+   "detector": "Plain CUSUM",
+   "speed": 15,
+   "false_conv": 1357.0,
+   "isolated": 44.0,
+   "hf": 62889,
+   "hp": 337666,
+   "fpr": 0.1862461722530548
+  },
+  {
+   "detector": "Plain CUSUM",
+   "speed": 20,
+   "false_conv": 1400.3333333333333,
+   "isolated": 44.333333333333336,
+   "hf": 52696,
+   "hp": 322198,
+   "fpr": 0.16355160491374868
+  },
+  {
+   "detector": "Ref. CNN-LSTM/GRU",
+   "speed": 0,
+   "false_conv": 0.6666666666666666,
+   "isolated": 0.6666666666666666,
+   "hf": 3,
+   "hp": 218960,
+   "fpr": 1.3701132626963829e-05
+  },
+  {
+   "detector": "Ref. CNN-LSTM/GRU",
+   "speed": 5,
+   "false_conv": 1.6666666666666667,
+   "isolated": 1.6666666666666667,
+   "hf": 4,
+   "hp": 336570,
+   "fpr": 1.1884600528864724e-05
+  },
+  {
+   "detector": "Ref. CNN-LSTM/GRU",
+   "speed": 10,
+   "false_conv": 2.3333333333333335,
+   "isolated": 2.0,
+   "hf": 8,
+   "hp": 317732,
+   "fpr": 2.5178452280538317e-05
+  },
+  {
+   "detector": "Ref. CNN-LSTM/GRU",
+   "speed": 15,
+   "false_conv": 5.666666666666667,
+   "isolated": 3.6666666666666665,
+   "hf": 19,
+   "hp": 331376,
+   "fpr": 5.733668099077785e-05
+  },
+  {
+   "detector": "Ref. CNN-LSTM/GRU",
+   "speed": 20,
+   "false_conv": 3.6666666666666665,
+   "isolated": 2.3333333333333335,
+   "hf": 11,
+   "hp": 315798,
+   "fpr": 3.483239285872615e-05
+  },
+  {
+   "detector": "Static threshold",
+   "speed": 0,
+   "false_conv": 3.6666666666666665,
+   "isolated": 0.6666666666666666,
+   "hf": 16,
+   "hp": 218960,
+   "fpr": 7.307270734380708e-05
+  },
+  {
+   "detector": "Static threshold",
+   "speed": 5,
+   "false_conv": 14.666666666666666,
+   "isolated": 3.0,
+   "hf": 94,
+   "hp": 327092,
+   "fpr": 0.00028738092035268366
+  },
+  {
+   "detector": "Static threshold",
+   "speed": 10,
+   "false_conv": 15.0,
+   "isolated": 1.3333333333333333,
+   "hf": 66,
+   "hp": 335022,
+   "fpr": 0.00019700198792915093
+  },
+  {
+   "detector": "Static threshold",
+   "speed": 15,
+   "false_conv": 5.666666666666667,
+   "isolated": 1.6666666666666667,
+   "hf": 19,
+   "hp": 319984,
+   "fpr": 5.9377968898444925e-05
+  },
+  {
+   "detector": "Static threshold",
+   "speed": 20,
+   "false_conv": 19.0,
+   "isolated": 2.0,
+   "hf": 99,
+   "hp": 306694,
+   "fpr": 0.0003227973158914097
+  }
+ ],
+ "per_attack": [
+  {
+   "detector": "AODV (no defense)",
+   "scenario": "data",
+   "detect_rate": 0.0,
+   "delay": NaN,
+   "tpr_num": 0,
+   "tpr_den": 46318,
+   "tpr": 0.0
+  },
+  {
+   "detector": "AODV (no defense)",
+   "scenario": "hello",
+   "detect_rate": 0.0,
+   "delay": NaN,
+   "tpr_num": 0,
+   "tpr_den": 63469,
+   "tpr": 0.0
+  },
+  {
+   "detector": "AODV (no defense)",
+   "scenario": "rreq",
+   "detect_rate": 0.0,
+   "delay": NaN,
+   "tpr_num": 0,
+   "tpr_den": 22788,
+   "tpr": 0.0
+  },
+  {
+   "detector": "AODV (no defense)",
+   "scenario": "rreq-low",
+   "detect_rate": 0.0,
+   "delay": NaN,
+   "tpr_num": 0,
+   "tpr_den": 23745,
+   "tpr": 0.0
+  },
+  {
+   "detector": "AODV (no defense)",
+   "scenario": "rreq-stealth",
+   "detect_rate": 0.0,
+   "delay": NaN,
+   "tpr_num": 0,
+   "tpr_den": 23745,
+   "tpr": 0.0
+  },
+  {
+   "detector": "AODV (no defense)",
+   "scenario": "syn",
+   "detect_rate": 0.0,
+   "delay": NaN,
+   "tpr_num": 0,
+   "tpr_den": 19821,
+   "tpr": 0.0
+  },
+  {
+   "detector": "CNN-BiLSTM-RF",
+   "scenario": "data",
+   "detect_rate": 1.0,
+   "delay": 1.0,
+   "tpr_num": 22221,
+   "tpr_den": 44519,
+   "tpr": 0.49913520070082434
+  },
+  {
+   "detector": "CNN-BiLSTM-RF",
+   "scenario": "hello",
+   "detect_rate": 1.0,
+   "delay": 1.0,
+   "tpr_num": 68284,
+   "tpr_den": 68290,
+   "tpr": 0.9999121394054766
+  },
+  {
+   "detector": "CNN-BiLSTM-RF",
+   "scenario": "rreq",
+   "detect_rate": 1.0,
+   "delay": 1.0,
+   "tpr_num": 25482,
+   "tpr_den": 25482,
+   "tpr": 1.0
+  },
+  {
+   "detector": "CNN-BiLSTM-RF",
+   "scenario": "rreq-low",
+   "detect_rate": 1.0,
+   "delay": 1.0666666666666667,
+   "tpr_num": 24495,
+   "tpr_den": 24645,
+   "tpr": 0.9939135727328059
+  },
+  {
+   "detector": "CNN-BiLSTM-RF",
+   "scenario": "rreq-stealth",
+   "detect_rate": 1.0,
+   "delay": 1.7333333333333334,
+   "tpr_num": 23587,
+   "tpr_den": 24285,
+   "tpr": 0.9712579781758287
+  },
+  {
+   "detector": "CNN-BiLSTM-RF",
+   "scenario": "syn",
+   "detect_rate": 1.0,
+   "delay": 1.0,
+   "tpr_num": 19765,
+   "tpr_den": 21150,
+   "tpr": 0.93451536643026
+  },
+  {
+   "detector": "FAPRP-style kNN",
+   "scenario": "data",
+   "detect_rate": 1.0,
+   "delay": 1.0,
+   "tpr_num": 9581,
+   "tpr_den": 47714,
+   "tpr": 0.20080060359642873
+  },
+  {
+   "detector": "FAPRP-style kNN",
+   "scenario": "hello",
+   "detect_rate": 1.0,
+   "delay": 1.0,
+   "tpr_num": 64398,
+   "tpr_den": 64583,
+   "tpr": 0.997135469086292
+  },
+  {
+   "detector": "FAPRP-style kNN",
+   "scenario": "rreq",
+   "detect_rate": 1.0,
+   "delay": 1.0,
+   "tpr_num": 24044,
+   "tpr_den": 24044,
+   "tpr": 1.0
+  },
+  {
+   "detector": "FAPRP-style kNN",
+   "scenario": "rreq-low",
+   "detect_rate": 1.0,
+   "delay": 4.733333333333333,
+   "tpr_num": 12618,
+   "tpr_den": 24049,
+   "tpr": 0.5246787808224874
+  },
+  {
+   "detector": "FAPRP-style kNN",
+   "scenario": "rreq-stealth",
+   "detect_rate": 1.0,
+   "delay": 4.733333333333333,
+   "tpr_num": 12618,
+   "tpr_den": 24049,
+   "tpr": 0.5246787808224874
+  },
+  {
+   "detector": "FAPRP-style kNN",
+   "scenario": "syn",
+   "detect_rate": 1.0,
+   "delay": 1.1333333333333333,
+   "tpr_num": 18195,
+   "tpr_den": 21586,
+   "tpr": 0.8429074400074122
+  },
+  {
+   "detector": "MERIT linear \u03bb",
+   "scenario": "data",
+   "detect_rate": 1.0,
+   "delay": 1.0,
+   "tpr_num": 29250,
+   "tpr_den": 44868,
+   "tpr": 0.6519122760096282
+  },
+  {
+   "detector": "MERIT linear \u03bb",
+   "scenario": "hello",
+   "detect_rate": 1.0,
+   "delay": 2.0,
+   "tpr_num": 66197,
+   "tpr_den": 67336,
+   "tpr": 0.9830848283236308
+  },
+  {
+   "detector": "MERIT linear \u03bb",
+   "scenario": "rreq",
+   "detect_rate": 1.0,
+   "delay": 1.1333333333333333,
+   "tpr_num": 22069,
+   "tpr_den": 22461,
+   "tpr": 0.9825475268242732
+  },
+  {
+   "detector": "MERIT linear \u03bb",
+   "scenario": "rreq-low",
+   "detect_rate": 1.0,
+   "delay": 4.4,
+   "tpr_num": 19282,
+   "tpr_den": 22793,
+   "tpr": 0.8459614794015706
+  },
+  {
+   "detector": "MERIT linear \u03bb",
+   "scenario": "rreq-stealth",
+   "detect_rate": 1.0,
+   "delay": 4.4,
+   "tpr_num": 19282,
+   "tpr_den": 22793,
+   "tpr": 0.8459614794015706
+  },
+  {
+   "detector": "MERIT linear \u03bb",
+   "scenario": "syn",
+   "detect_rate": 1.0,
+   "delay": 1.0,
+   "tpr_num": 21818,
+   "tpr_den": 22628,
+   "tpr": 0.9642036415060986
+  },
+  {
+   "detector": "MERIT no V-Net",
+   "scenario": "data",
+   "detect_rate": 1.0,
+   "delay": 1.1333333333333333,
+   "tpr_num": 36666,
+   "tpr_den": 47587,
+   "tpr": 0.7705045495618551
+  },
+  {
+   "detector": "MERIT no V-Net",
+   "scenario": "hello",
+   "detect_rate": 1.0,
+   "delay": 3.0,
+   "tpr_num": 64949,
+   "tpr_den": 67271,
+   "tpr": 0.9654828975338556
+  },
+  {
+   "detector": "MERIT no V-Net",
+   "scenario": "rreq",
+   "detect_rate": 1.0,
+   "delay": 2.2666666666666666,
+   "tpr_num": 20141,
+   "tpr_den": 21234,
+   "tpr": 0.9485259489497975
+  },
+  {
+   "detector": "MERIT no V-Net",
+   "scenario": "rreq-low",
+   "detect_rate": 1.0,
+   "delay": 9.2,
+   "tpr_num": 16281,
+   "tpr_den": 22600,
+   "tpr": 0.7203982300884956
+  },
+  {
+   "detector": "MERIT no V-Net",
+   "scenario": "rreq-stealth",
+   "detect_rate": 1.0,
+   "delay": 9.2,
+   "tpr_num": 16281,
+   "tpr_den": 22600,
+   "tpr": 0.7203982300884956
+  },
+  {
+   "detector": "MERIT no V-Net",
+   "scenario": "syn",
+   "detect_rate": 1.0,
+   "delay": 1.4666666666666666,
+   "tpr_num": 20126,
+   "tpr_den": 21624,
+   "tpr": 0.930725120236774
+  },
+  {
+   "detector": "MERIT no fusion",
+   "scenario": "data",
+   "detect_rate": 1.0,
+   "delay": 1.0,
+   "tpr_num": 37432,
+   "tpr_den": 45883,
+   "tpr": 0.8158141359544929
+  },
+  {
+   "detector": "MERIT no fusion",
+   "scenario": "hello",
+   "detect_rate": 1.0,
+   "delay": 2.0,
+   "tpr_num": 66700,
+   "tpr_den": 67835,
+   "tpr": 0.9832682243679517
+  },
+  {
+   "detector": "MERIT no fusion",
+   "scenario": "rreq",
+   "detect_rate": 1.0,
+   "delay": 1.1333333333333333,
+   "tpr_num": 22767,
+   "tpr_den": 23188,
+   "tpr": 0.9818440572710022
+  },
+  {
+   "detector": "MERIT no fusion",
+   "scenario": "rreq-low",
+   "detect_rate": 1.0,
+   "delay": 4.266666666666667,
+   "tpr_num": 19969,
+   "tpr_den": 23414,
+   "tpr": 0.852865806782267
+  },
+  {
+   "detector": "MERIT no fusion",
+   "scenario": "rreq-stealth",
+   "detect_rate": 1.0,
+   "delay": 4.266666666666667,
+   "tpr_num": 19969,
+   "tpr_den": 23414,
+   "tpr": 0.852865806782267
+  },
+  {
+   "detector": "MERIT no fusion",
+   "scenario": "syn",
+   "detect_rate": 1.0,
+   "delay": 1.0,
+   "tpr_num": 22524,
+   "tpr_den": 23455,
+   "tpr": 0.9603069707951396
+  },
+  {
+   "detector": "MERIT-Net",
+   "scenario": "data",
+   "detect_rate": 1.0,
+   "delay": 1.0,
+   "tpr_num": 37338,
+   "tpr_den": 45858,
+   "tpr": 0.8142090802041083
+  },
+  {
+   "detector": "MERIT-Net",
+   "scenario": "hello",
+   "detect_rate": 1.0,
+   "delay": 2.0,
+   "tpr_num": 66197,
+   "tpr_den": 67336,
+   "tpr": 0.9830848283236308
+  },
+  {
+   "detector": "MERIT-Net",
+   "scenario": "rreq",
+   "detect_rate": 1.0,
+   "delay": 1.1333333333333333,
+   "tpr_num": 22069,
+   "tpr_den": 22461,
+   "tpr": 0.9825475268242732
+  },
+  {
+   "detector": "MERIT-Net",
+   "scenario": "rreq-low",
+   "detect_rate": 1.0,
+   "delay": 4.4,
+   "tpr_num": 19237,
+   "tpr_den": 22649,
+   "tpr": 0.849353172325489
+  },
+  {
+   "detector": "MERIT-Net",
+   "scenario": "rreq-stealth",
+   "detect_rate": 1.0,
+   "delay": 4.4,
+   "tpr_num": 19237,
+   "tpr_den": 22649,
+   "tpr": 0.849353172325489
+  },
+  {
+   "detector": "MERIT-Net",
+   "scenario": "syn",
+   "detect_rate": 1.0,
+   "delay": 1.0,
+   "tpr_num": 22126,
+   "tpr_den": 22971,
+   "tpr": 0.9632144878324844
+  },
+  {
+   "detector": "Plain CUSUM",
+   "scenario": "data",
+   "detect_rate": 1.0,
+   "delay": 1.1333333333333333,
+   "tpr_num": 28365,
+   "tpr_den": 46559,
+   "tpr": 0.6092270022981593
+  },
+  {
+   "detector": "Plain CUSUM",
+   "scenario": "hello",
+   "detect_rate": 1.0,
+   "delay": 3.0,
+   "tpr_num": 66634,
+   "tpr_den": 68940,
+   "tpr": 0.9665506237307804
+  },
+  {
+   "detector": "Plain CUSUM",
+   "scenario": "rreq",
+   "detect_rate": 1.0,
+   "delay": 1.6,
+   "tpr_num": 23146,
+   "tpr_den": 24175,
+   "tpr": 0.957435367114788
+  },
+  {
+   "detector": "Plain CUSUM",
+   "scenario": "rreq-low",
+   "detect_rate": 1.0,
+   "delay": 7.933333333333334,
+   "tpr_num": 17202,
+   "tpr_den": 23565,
+   "tpr": 0.7299809038828772
+  },
+  {
+   "detector": "Plain CUSUM",
+   "scenario": "rreq-stealth",
+   "detect_rate": 1.0,
+   "delay": 7.933333333333334,
+   "tpr_num": 17202,
+   "tpr_den": 23565,
+   "tpr": 0.7299809038828772
+  },
+  {
+   "detector": "Plain CUSUM",
+   "scenario": "syn",
+   "detect_rate": 1.0,
+   "delay": 9.533333333333333,
+   "tpr_num": 17614,
+   "tpr_den": 20513,
+   "tpr": 0.8586749865938673
+  },
+  {
+   "detector": "Ref. CNN-LSTM/GRU",
+   "scenario": "data",
+   "detect_rate": 1.0,
+   "delay": 1.0,
+   "tpr_num": 33118,
+   "tpr_den": 46688,
+   "tpr": 0.7093471555860178
+  },
+  {
+   "detector": "Ref. CNN-LSTM/GRU",
+   "scenario": "hello",
+   "detect_rate": 1.0,
+   "delay": 1.0,
+   "tpr_num": 68021,
+   "tpr_den": 68027,
+   "tpr": 0.9999117997265792
+  },
+  {
+   "detector": "Ref. CNN-LSTM/GRU",
+   "scenario": "rreq",
+   "detect_rate": 1.0,
+   "delay": 1.0,
+   "tpr_num": 23762,
+   "tpr_den": 23762,
+   "tpr": 1.0
+  },
+  {
+   "detector": "Ref. CNN-LSTM/GRU",
+   "scenario": "rreq-low",
+   "detect_rate": 1.0,
+   "delay": 1.7333333333333334,
+   "tpr_num": 23712,
+   "tpr_den": 24321,
+   "tpr": 0.9749599111878623
+  },
+  {
+   "detector": "Ref. CNN-LSTM/GRU",
+   "scenario": "rreq-stealth",
+   "detect_rate": 1.0,
+   "delay": 3.0,
+   "tpr_num": 21393,
+   "tpr_den": 23116,
+   "tpr": 0.9254628828517044
+  },
+  {
+   "detector": "Ref. CNN-LSTM/GRU",
+   "scenario": "syn",
+   "detect_rate": 1.0,
+   "delay": 1.0,
+   "tpr_num": 21391,
+   "tpr_den": 23169,
+   "tpr": 0.9232595278173421
+  },
+  {
+   "detector": "Static threshold",
+   "scenario": "data",
+   "detect_rate": 1.0,
+   "delay": 1.0666666666666667,
+   "tpr_num": 14222,
+   "tpr_den": 45168,
+   "tpr": 0.314868933758413
+  },
+  {
+   "detector": "Static threshold",
+   "scenario": "hello",
+   "detect_rate": 1.0,
+   "delay": 1.0,
+   "tpr_num": 68704,
+   "tpr_den": 68710,
+   "tpr": 0.9999126764663077
+  },
+  {
+   "detector": "Static threshold",
+   "scenario": "rreq",
+   "detect_rate": 1.0,
+   "delay": 1.0,
+   "tpr_num": 23380,
+   "tpr_den": 23398,
+   "tpr": 0.9992307034789298
+  },
+  {
+   "detector": "Static threshold",
+   "scenario": "rreq-low",
+   "detect_rate": 1.0,
+   "delay": 2.8666666666666667,
+   "tpr_num": 5959,
+   "tpr_den": 23322,
+   "tpr": 0.25550981905496956
+  },
+  {
+   "detector": "Static threshold",
+   "scenario": "rreq-stealth",
+   "detect_rate": 1.0,
+   "delay": 2.8666666666666667,
+   "tpr_num": 5959,
+   "tpr_den": 23322,
+   "tpr": 0.25550981905496956
+  },
+  {
+   "detector": "Static threshold",
+   "scenario": "syn",
+   "detect_rate": 1.0,
+   "delay": 1.0,
+   "tpr_num": 14670,
+   "tpr_den": 19985,
+   "tpr": 0.7340505379034276
+  }
+ ],
+ "network": [
+  {
+   "detector": "AODV (no defense)",
+   "is_att": false,
+   "pdr": 0.8526138612852463,
+   "overhead": 3.11591373891391,
+   "throughput": 423.40769810844796
+  },
+  {
+   "detector": "AODV (no defense)",
+   "is_att": true,
+   "pdr": 0.7057154418038359,
+   "overhead": 7.100121972671491,
+   "throughput": 343.2882272289407
+  },
+  {
+   "detector": "CNN-BiLSTM-RF",
+   "is_att": false,
+   "pdr": 0.8438947588722064,
+   "overhead": 3.199312156326538,
+   "throughput": 418.7862131580159
+  },
+  {
+   "detector": "CNN-BiLSTM-RF",
+   "is_att": true,
+   "pdr": 0.8115436329293041,
+   "overhead": 3.8763499639363146,
+   "throughput": 397.35499685327363
+  },
+  {
+   "detector": "FAPRP-style kNN",
+   "is_att": false,
+   "pdr": 0.836522147776728,
+   "overhead": 3.2009319792557034,
+   "throughput": 422.3747177943271
+  },
+  {
+   "detector": "FAPRP-style kNN",
+   "is_att": true,
+   "pdr": 0.8161622885401246,
+   "overhead": 3.898309975473736,
+   "throughput": 392.40666203252283
+  },
+  {
+   "detector": "MERIT linear \u03bb",
+   "is_att": false,
+   "pdr": 0.8531202359182665,
+   "overhead": 3.114649619480148,
+   "throughput": 423.1799536804365
+  },
+  {
+   "detector": "MERIT linear \u03bb",
+   "is_att": true,
+   "pdr": 0.807658581612598,
+   "overhead": 4.092519949272778,
+   "throughput": 395.09920636515227
+  },
+  {
+   "detector": "MERIT no V-Net",
+   "is_att": false,
+   "pdr": 0.844373177103798,
+   "overhead": 3.1823598571798355,
+   "throughput": 422.34733084705346
+  },
+  {
+   "detector": "MERIT no V-Net",
+   "is_att": true,
+   "pdr": 0.8049518501370544,
+   "overhead": 4.253689072272104,
+   "throughput": 392.408697001745
+  },
+  {
+   "detector": "MERIT no fusion",
+   "is_att": false,
+   "pdr": 0.8400161930339922,
+   "overhead": 3.190945968153937,
+   "throughput": 420.51542871143863
+  },
+  {
+   "detector": "MERIT no fusion",
+   "is_att": true,
+   "pdr": 0.8078320881955869,
+   "overhead": 4.125056369382739,
+   "throughput": 393.151657933816
+  },
+  {
+   "detector": "MERIT-Net",
+   "is_att": false,
+   "pdr": 0.8448795517368182,
+   "overhead": 3.181095737746074,
+   "throughput": 422.1195864190419
+  },
+  {
+   "detector": "MERIT-Net",
+   "is_att": true,
+   "pdr": 0.8064859400924628,
+   "overhead": 4.091193217835455,
+   "throughput": 395.3146541846704
+  },
+  {
+   "detector": "Plain CUSUM",
+   "is_att": false,
+   "pdr": 0.5957529389357402,
+   "overhead": 6.788177167504177,
+   "throughput": 224.5649097338375
+  },
+  {
+   "detector": "Plain CUSUM",
+   "is_att": true,
+   "pdr": 0.5515801009866981,
+   "overhead": 8.927232637473942,
+   "throughput": 202.43913656268688
+  },
+  {
+   "detector": "Ref. CNN-LSTM/GRU",
+   "is_att": false,
+   "pdr": 0.845942344206092,
+   "overhead": 3.2246274870969596,
+   "throughput": 420.34758592315734
+  },
+  {
+   "detector": "Ref. CNN-LSTM/GRU",
+   "is_att": true,
+   "pdr": 0.8102273269739573,
+   "overhead": 3.892472443102366,
+   "throughput": 396.9990958165826
+  },
+  {
+   "detector": "Static threshold",
+   "is_att": false,
+   "pdr": 0.8352836375550847,
+   "overhead": 3.2926319983290786,
+   "throughput": 419.170530709492
+  },
+  {
+   "detector": "Static threshold",
+   "is_att": true,
+   "pdr": 0.802224283192652,
+   "overhead": 4.0335236358514495,
+   "throughput": 392.8121898622355
+  }
+ ],
+ "pdr_by_scenario": [
+  {
+   "detector": "AODV (no defense)",
+   "scenario": "benign",
+   "pdr": 0.8526138612852463
+  },
+  {
+   "detector": "AODV (no defense)",
+   "scenario": "data",
+   "pdr": 0.7392555451789113
+  },
+  {
+   "detector": "AODV (no defense)",
+   "scenario": "hello",
+   "pdr": 0.6248274440745774
+  },
+  {
+   "detector": "AODV (no defense)",
+   "scenario": "rreq",
+   "pdr": 0.4747299036196316
+  },
+  {
+   "detector": "AODV (no defense)",
+   "scenario": "rreq-low",
+   "pdr": 0.793352304981562
+  },
+  {
+   "detector": "AODV (no defense)",
+   "scenario": "rreq-stealth",
+   "pdr": 0.793352304981562
+  },
+  {
+   "detector": "AODV (no defense)",
+   "scenario": "syn",
+   "pdr": 0.8087751479867713
+  },
+  {
+   "detector": "CNN-BiLSTM-RF",
+   "scenario": "benign",
+   "pdr": 0.8438947588722064
+  },
+  {
+   "detector": "CNN-BiLSTM-RF",
+   "scenario": "data",
+   "pdr": 0.8320941197318678
+  },
+  {
+   "detector": "CNN-BiLSTM-RF",
+   "scenario": "hello",
+   "pdr": 0.8235640691287798
+  },
+  {
+   "detector": "CNN-BiLSTM-RF",
+   "scenario": "rreq",
+   "pdr": 0.7559017563231694
+  },
+  {
+   "detector": "CNN-BiLSTM-RF",
+   "scenario": "rreq-low",
+   "pdr": 0.819336237569953
+  },
+  {
+   "detector": "CNN-BiLSTM-RF",
+   "scenario": "rreq-stealth",
+   "pdr": 0.8129566929457337
+  },
+  {
+   "detector": "CNN-BiLSTM-RF",
+   "scenario": "syn",
+   "pdr": 0.825408921876321
+  },
+  {
+   "detector": "FAPRP-style kNN",
+   "scenario": "benign",
+   "pdr": 0.836522147776728
+  },
+  {
+   "detector": "FAPRP-style kNN",
+   "scenario": "data",
+   "pdr": 0.8293139332550903
+  },
+  {
+   "detector": "FAPRP-style kNN",
+   "scenario": "hello",
+   "pdr": 0.8425183655369349
+  },
+  {
+   "detector": "FAPRP-style kNN",
+   "scenario": "rreq",
+   "pdr": 0.7737427072906914
+  },
+  {
+   "detector": "FAPRP-style kNN",
+   "scenario": "rreq-low",
+   "pdr": 0.8097437341379582
+  },
+  {
+   "detector": "FAPRP-style kNN",
+   "scenario": "rreq-stealth",
+   "pdr": 0.8097437341379582
+  },
+  {
+   "detector": "FAPRP-style kNN",
+   "scenario": "syn",
+   "pdr": 0.8319112568821144
+  },
+  {
+   "detector": "MERIT linear \u03bb",
+   "scenario": "benign",
+   "pdr": 0.8531202359182665
+  },
+  {
+   "detector": "MERIT linear \u03bb",
+   "scenario": "data",
+   "pdr": 0.8426082825009134
+  },
+  {
+   "detector": "MERIT linear \u03bb",
+   "scenario": "hello",
+   "pdr": 0.8378667425323217
+  },
+  {
+   "detector": "MERIT linear \u03bb",
+   "scenario": "rreq",
+   "pdr": 0.7364678521356243
+  },
+  {
+   "detector": "MERIT linear \u03bb",
+   "scenario": "rreq-low",
+   "pdr": 0.7997251983054051
+  },
+  {
+   "detector": "MERIT linear \u03bb",
+   "scenario": "rreq-stealth",
+   "pdr": 0.7997251983054051
+  },
+  {
+   "detector": "MERIT linear \u03bb",
+   "scenario": "syn",
+   "pdr": 0.8295582158959174
+  },
+  {
+   "detector": "MERIT no V-Net",
+   "scenario": "benign",
+   "pdr": 0.844373177103798
+  },
+  {
+   "detector": "MERIT no V-Net",
+   "scenario": "data",
+   "pdr": 0.8367839038301265
+  },
+  {
+   "detector": "MERIT no V-Net",
+   "scenario": "hello",
+   "pdr": 0.8315349924207729
+  },
+  {
+   "detector": "MERIT no V-Net",
+   "scenario": "rreq",
+   "pdr": 0.723045763445055
+  },
+  {
+   "detector": "MERIT no V-Net",
+   "scenario": "rreq-low",
+   "pdr": 0.8126227331097257
+  },
+  {
+   "detector": "MERIT no V-Net",
+   "scenario": "rreq-stealth",
+   "pdr": 0.8126227331097257
+  },
+  {
+   "detector": "MERIT no V-Net",
+   "scenario": "syn",
+   "pdr": 0.813100974906921
+  },
+  {
+   "detector": "MERIT no fusion",
+   "scenario": "benign",
+   "pdr": 0.8400161930339922
+  },
+  {
+   "detector": "MERIT no fusion",
+   "scenario": "data",
+   "pdr": 0.8348410706363597
+  },
+  {
+   "detector": "MERIT no fusion",
+   "scenario": "hello",
+   "pdr": 0.8448764644232037
+  },
+  {
+   "detector": "MERIT no fusion",
+   "scenario": "rreq",
+   "pdr": 0.7384993251361127
+  },
+  {
+   "detector": "MERIT no fusion",
+   "scenario": "rreq-low",
+   "pdr": 0.7990552631638994
+  },
+  {
+   "detector": "MERIT no fusion",
+   "scenario": "rreq-stealth",
+   "pdr": 0.7990552631638994
+  },
+  {
+   "detector": "MERIT no fusion",
+   "scenario": "syn",
+   "pdr": 0.8306651426500464
+  },
+  {
+   "detector": "MERIT-Net",
+   "scenario": "benign",
+   "pdr": 0.8448795517368182
+  },
+  {
+   "detector": "MERIT-Net",
+   "scenario": "data",
+   "pdr": 0.8312967959211408
+  },
+  {
+   "detector": "MERIT-Net",
+   "scenario": "hello",
+   "pdr": 0.8378717908073399
+  },
+  {
+   "detector": "MERIT-Net",
+   "scenario": "rreq",
+   "pdr": 0.7364753660559789
+  },
+  {
+   "detector": "MERIT-Net",
+   "scenario": "rreq-low",
+   "pdr": 0.8024284780107077
+  },
+  {
+   "detector": "MERIT-Net",
+   "scenario": "rreq-stealth",
+   "pdr": 0.8024284780107077
+  },
+  {
+   "detector": "MERIT-Net",
+   "scenario": "syn",
+   "pdr": 0.8284147317489018
+  },
+  {
+   "detector": "Plain CUSUM",
+   "scenario": "benign",
+   "pdr": 0.5957529389357402
+  },
+  {
+   "detector": "Plain CUSUM",
+   "scenario": "data",
+   "pdr": 0.5515180099922186
+  },
+  {
+   "detector": "Plain CUSUM",
+   "scenario": "hello",
+   "pdr": 0.5863972250076075
+  },
+  {
+   "detector": "Plain CUSUM",
+   "scenario": "rreq",
+   "pdr": 0.47929514968644943
+  },
+  {
+   "detector": "Plain CUSUM",
+   "scenario": "rreq-low",
+   "pdr": 0.5490771040315923
+  },
+  {
+   "detector": "Plain CUSUM",
+   "scenario": "rreq-stealth",
+   "pdr": 0.5490771040315923
+  },
+  {
+   "detector": "Plain CUSUM",
+   "scenario": "syn",
+   "pdr": 0.5941160131707285
+  },
+  {
+   "detector": "Ref. CNN-LSTM/GRU",
+   "scenario": "benign",
+   "pdr": 0.845942344206092
+  },
+  {
+   "detector": "Ref. CNN-LSTM/GRU",
+   "scenario": "data",
+   "pdr": 0.8314980563944299
+  },
+  {
+   "detector": "Ref. CNN-LSTM/GRU",
+   "scenario": "hello",
+   "pdr": 0.8284433810612515
+  },
+  {
+   "detector": "Ref. CNN-LSTM/GRU",
+   "scenario": "rreq",
+   "pdr": 0.7549255928411562
+  },
+  {
+   "detector": "Ref. CNN-LSTM/GRU",
+   "scenario": "rreq-low",
+   "pdr": 0.8190286271963273
+  },
+  {
+   "detector": "Ref. CNN-LSTM/GRU",
+   "scenario": "rreq-stealth",
+   "pdr": 0.8088508212767389
+  },
+  {
+   "detector": "Ref. CNN-LSTM/GRU",
+   "scenario": "syn",
+   "pdr": 0.8186174830738402
+  },
+  {
+   "detector": "Static threshold",
+   "scenario": "benign",
+   "pdr": 0.8352836375550847
+  },
+  {
+   "detector": "Static threshold",
+   "scenario": "data",
+   "pdr": 0.8024315927171318
+  },
+  {
+   "detector": "Static threshold",
+   "scenario": "hello",
+   "pdr": 0.848012306257478
+  },
+  {
+   "detector": "Static threshold",
+   "scenario": "rreq",
+   "pdr": 0.7573282507453729
+  },
+  {
+   "detector": "Static threshold",
+   "scenario": "rreq-low",
+   "pdr": 0.7940655421618996
+  },
+  {
+   "detector": "Static threshold",
+   "scenario": "rreq-stealth",
+   "pdr": 0.7940655421618996
+  },
+  {
+   "detector": "Static threshold",
+   "scenario": "syn",
+   "pdr": 0.8174424651121309
+  }
+ ],
+ "pdr_attack_by_speed": [
+  {
+   "detector": "AODV (no defense)",
+   "speed": 0,
+   "pdr": 0.8702620067689978
+  },
+  {
+   "detector": "AODV (no defense)",
+   "speed": 5,
+   "pdr": 0.7621573092082833
+  },
+  {
+   "detector": "AODV (no defense)",
+   "speed": 10,
+   "pdr": 0.6824884708133232
+  },
+  {
+   "detector": "AODV (no defense)",
+   "speed": 15,
+   "pdr": 0.6245869522025497
+  },
+  {
+   "detector": "AODV (no defense)",
+   "speed": 20,
+   "pdr": 0.5890824700260254
+  },
+  {
+   "detector": "CNN-BiLSTM-RF",
+   "speed": 0,
+   "pdr": 0.991607411844996
+  },
+  {
+   "detector": "CNN-BiLSTM-RF",
+   "speed": 5,
+   "pdr": 0.892364338887568
+  },
+  {
+   "detector": "CNN-BiLSTM-RF",
+   "speed": 10,
+   "pdr": 0.787988209715595
+  },
+  {
+   "detector": "CNN-BiLSTM-RF",
+   "speed": 15,
+   "pdr": 0.7192541010423866
+  },
+  {
+   "detector": "CNN-BiLSTM-RF",
+   "speed": 20,
+   "pdr": 0.6665041031559747
+  },
+  {
+   "detector": "FAPRP-style kNN",
+   "speed": 0,
+   "pdr": 0.9923536227305326
+  },
+  {
+   "detector": "FAPRP-style kNN",
+   "speed": 5,
+   "pdr": 0.9001743521178616
+  },
+  {
+   "detector": "FAPRP-style kNN",
+   "speed": 10,
+   "pdr": 0.7825251272064286
+  },
+  {
+   "detector": "FAPRP-style kNN",
+   "speed": 15,
+   "pdr": 0.7497546988490272
+  },
+  {
+   "detector": "FAPRP-style kNN",
+   "speed": 20,
+   "pdr": 0.6560036417967727
+  },
+  {
+   "detector": "MERIT linear \u03bb",
+   "speed": 0,
+   "pdr": 0.9912122648702104
+  },
+  {
+   "detector": "MERIT linear \u03bb",
+   "speed": 5,
+   "pdr": 0.8767094582818035
+  },
+  {
+   "detector": "MERIT linear \u03bb",
+   "speed": 10,
+   "pdr": 0.7841664218624903
+  },
+  {
+   "detector": "MERIT linear \u03bb",
+   "speed": 15,
+   "pdr": 0.7275963415785636
+  },
+  {
+   "detector": "MERIT linear \u03bb",
+   "speed": 20,
+   "pdr": 0.6586084214699216
+  },
+  {
+   "detector": "MERIT no V-Net",
+   "speed": 0,
+   "pdr": 0.9932079457377304
+  },
+  {
+   "detector": "MERIT no V-Net",
+   "speed": 5,
+   "pdr": 0.8964054142299551
+  },
+  {
+   "detector": "MERIT no V-Net",
+   "speed": 10,
+   "pdr": 0.7836894707332238
+  },
+  {
+   "detector": "MERIT no V-Net",
+   "speed": 15,
+   "pdr": 0.7074713753350288
+  },
+  {
+   "detector": "MERIT no V-Net",
+   "speed": 20,
+   "pdr": 0.6439850446493341
+  },
+  {
+   "detector": "MERIT no fusion",
+   "speed": 0,
+   "pdr": 0.9900294491890814
+  },
+  {
+   "detector": "MERIT no fusion",
+   "speed": 5,
+   "pdr": 0.8806157800876586
+  },
+  {
+   "detector": "MERIT no fusion",
+   "speed": 10,
+   "pdr": 0.7880984430391451
+  },
+  {
+   "detector": "MERIT no fusion",
+   "speed": 15,
+   "pdr": 0.7221064844916818
+  },
+  {
+   "detector": "MERIT no fusion",
+   "speed": 20,
+   "pdr": 0.6583102841703677
+  },
+  {
+   "detector": "MERIT-Net",
+   "speed": 0,
+   "pdr": 0.9900211692993142
+  },
+  {
+   "detector": "MERIT-Net",
+   "speed": 5,
+   "pdr": 0.8760520132072014
+  },
+  {
+   "detector": "MERIT-Net",
+   "speed": 10,
+   "pdr": 0.7862311605081836
+  },
+  {
+   "detector": "MERIT-Net",
+   "speed": 15,
+   "pdr": 0.7282010437758237
+  },
+  {
+   "detector": "MERIT-Net",
+   "speed": 20,
+   "pdr": 0.6519243136717909
+  },
+  {
+   "detector": "Plain CUSUM",
+   "speed": 0,
+   "pdr": 0.5966853567864658
+  },
+  {
+   "detector": "Plain CUSUM",
+   "speed": 5,
+   "pdr": 0.568747628372559
+  },
+  {
+   "detector": "Plain CUSUM",
+   "speed": 10,
+   "pdr": 0.5576924162584435
+  },
+  {
+   "detector": "Plain CUSUM",
+   "speed": 15,
+   "pdr": 0.5349156544159536
+  },
+  {
+   "detector": "Plain CUSUM",
+   "speed": 20,
+   "pdr": 0.49985944910006874
+  },
+  {
+   "detector": "Ref. CNN-LSTM/GRU",
+   "speed": 0,
+   "pdr": 0.9940356111030785
+  },
+  {
+   "detector": "Ref. CNN-LSTM/GRU",
+   "speed": 5,
+   "pdr": 0.8940333831114623
+  },
+  {
+   "detector": "Ref. CNN-LSTM/GRU",
+   "speed": 10,
+   "pdr": 0.7893036841108935
+  },
+  {
+   "detector": "Ref. CNN-LSTM/GRU",
+   "speed": 15,
+   "pdr": 0.7274029048328807
+  },
+  {
+   "detector": "Ref. CNN-LSTM/GRU",
+   "speed": 20,
+   "pdr": 0.6463610517114717
+  },
+  {
+   "detector": "Static threshold",
+   "speed": 0,
+   "pdr": 0.9821264969091121
+  },
+  {
+   "detector": "Static threshold",
+   "speed": 5,
+   "pdr": 0.8822820020989064
+  },
+  {
+   "detector": "Static threshold",
+   "speed": 10,
+   "pdr": 0.7806086758932937
+  },
+  {
+   "detector": "Static threshold",
+   "speed": 15,
+   "pdr": 0.6992574919575942
+  },
+  {
+   "detector": "Static threshold",
+   "speed": 20,
+   "pdr": 0.6668467491043542
+  }
+ ],
+ "efficiency": {
+  "MERIT-Net": {
+   "params": 2727,
+   "always_on_macs": 564,
+   "vnet_macs": 29496,
+   "kb_int8": 2.6630859375,
+   "ms_per_window_all_pairs": 5.090013978047215
+  },
+  "Ref. CNN-LSTM/GRU": {
+   "params": 27170,
+   "always_on_macs": 248896,
+   "kb_int8": 26.533203125,
+   "ms_per_window_all_pairs": 9.627560583383543
+  },
+  "CNN-BiLSTM-RF": {
+   "params": 19105,
+   "always_on_macs": 296000,
+   "kb_int8": 18.6572265625,
+   "note": "+ 100-tree random forest",
+   "ms_per_window_all_pairs": 15.377188539427888
+  }
+ },
+ "ms_per_window": {
+  "AODV (no defense)": 0.04285107623794223,
+  "CNN-BiLSTM-RF": 15.377188539427888,
+  "FAPRP-style kNN": 17.9675190497124,
+  "MERIT linear \u03bb": 2.6098697850946206,
+  "MERIT no V-Net": 4.527565443427128,
+  "MERIT no fusion": 4.726872472523891,
+  "MERIT-Net": 5.090013978047215,
+  "Plain CUSUM": 0.22445040228391613,
+  "Ref. CNN-LSTM/GRU": 9.627560583383543,
+  "Static threshold": 0.11323044509576687
+ },
+ "config": {
+  "lam_scale": [
+   1.5684235095977783,
+   1.0261876583099365
+  ],
+  "eps_raw": [
+   0.3624171018600464,
+   0.02551931142807007
+  ],
+  "eps": [
+   0.05,
+   0.05
+  ],
+  "glm_scale": [
+   1.4795746803283691,
+   1.671696424484253
+  ],
+  "glm_eps_raw": [
+   0.324130117893219,
+   0.4018052816390991
+  ],
+  "glm_eps_cal": [
+   0.0,
+   0.0
+  ],
+  "deviance": {
+   "lambda_net": [
+    0.2543623149394989,
+    0.36403077840805054
+   ],
+   "glm": [
+    0.2785968780517578,
+    1.0177932977676392
+   ],
+   "constant": [
+    0.44350072741508484,
+    4.131377696990967
+   ]
+  },
+  "h": [
+   14.8898286819458,
+   12.899219512939453,
+   14.8898286819458,
+   12.899219512939453
+  ],
+  "tau_v": 0.5,
+  "vnet_prealarm_benign_n": 9174,
+  "static_thr": [
+   3.0,
+   1.0,
+   24.0,
+   1.0
+  ],
+  "plain_lam": [
+   0.08506020903587341,
+   0.8455430865287781,
+   1.8585724830627441,
+   0.014489008113741875
+  ],
+  "params": {
+   "lambda_net": 626,
+   "v_net": 2101,
+   "ref_hybrid": 27170,
+   "cnn_bilstm": 19105
+  }
+ }
+}

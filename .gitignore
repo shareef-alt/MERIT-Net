@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.log
+# compiled NS-3 scenario binaries
+ns3sim/meritnet-scenario
+ns3sim/range
+# large generated data (published on Zenodo instead)
+ns3sim/out/
+meritnet/data/
+*.bin
+*.npz

@@ -1,0 +1,10 @@
+# Versions used to produce the paper's results (Python 3.13).
+# The NS-3 build and scikit-learn version must match for bit-identical runs and for the saved kNN/RF models to load.
+ns3==3.44.post0
+scikit-learn==1.9.1
+torch==2.14.1
+numpy==2.5.3
+scipy==1.18.1
+pandas==3.0.5
+joblib==1.6.0
+matplotlib==3.11.2
