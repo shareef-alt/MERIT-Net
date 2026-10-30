@@ -23,7 +23,7 @@ authors:
   - family-names: Jabeen
     given-names: Khadija
     affiliation: "Rajeev Gandhi Memorial College of Engineering and Technology, Nandyal, India"
-repository-code: "https://github.com/YOUR-GITHUB-USERNAME/MERIT-Net"
+repository-code: "https://github.com/shareef-alt/MERIT-Net"
 preferred-citation:
   type: article
   title: "MERIT-Net: Lightweight Mobility-Explained Flooding Detection for Mobile Ad Hoc Networks"
